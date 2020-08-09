@@ -1,0 +1,79 @@
+.headline {
+    background-image: url(./img/bg-img.jpg);
+    background-color: #1f211e !important;
+    background-position-x: center;
+    background-position-y: bottom ;
+    background-repeat: no-repeat;
+}
+
+.headline .container {
+    padding-top: 15%;
+    padding-bottom: 50%;
+}
+
+.ability {
+    background-color: #1f211e !important;
+}
+
+.display-6 {
+    color: #F7B031;
+}
+
+hr.solid {
+    border-top: 2px solid #F7B031;
+    margin-right: 42%;
+    margin-left: 22%;
+}
+
+.about {
+    background-color: #383C36;
+}
+
+.about .container {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.btn-outline-light {
+    border-color: #f0ac30 !important;
+}
+
+.btn-group {
+    position: relative;
+    content: '';
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-fluid {
+    box-shadow: -20px 20px 0px -11px #F7B031;
+}
+
+
+@media (min-width: 576px) { 
+    
+    .headline {
+        background-image: url(./img/bg-img.jpg);
+        background-color: #1f211e !important;
+        background-position-x: 60%;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .headline .container {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-right: 35%;
+        padding-left: 5%;
+    }
+
+    .about .container {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    hr.solid {
+        margin-right: 47%;
+    margin-left: 36%;
+    }
+ }
